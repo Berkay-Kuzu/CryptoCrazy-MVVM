@@ -1,1 +1,4 @@
 # CryptoCrazy-MVVM
+This is an app which users can see a great variety of crypto currencies. They can scroll down and see them. In this app, I used MVVC design pattern explicitly. First, I created Webservice file and in this file, I formed completion located in dowloadCurrencies function. When data come, I tried to run the function with these data. Furthermore, in cryptoViewModel, I constituted structs and extensions to create cryptoViewModel. Furthermore, in model file, I created CryptoCurrency model by using struct with currency and price properties defined as String. Finally, in ViewController, I showed these data to the users. Also, in ViewController, I used Swift Ternary Operator. In addition to that, I created own table cell and used it in the table by benefiting from dequeueReusableCell function.
+
+<img width="357" alt="crazy" src="https://user-images.githubusercontent.com/92036779/193443618-9886f804-3768-4260-9d5b-81751ae82f49.png">
